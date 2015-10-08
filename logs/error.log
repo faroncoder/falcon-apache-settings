@@ -324,3 +324,14 @@
 [Thu Oct 08 04:21:40.941066 2015] [mpm_prefork:notice] [pid 18006] AH00169: caught SIGTERM, shutting down
 [Thu Oct 08 04:21:42.233796 2015] [mpm_prefork:notice] [pid 21940] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
 [Thu Oct 08 04:21:42.233871 2015] [core:notice] [pid 21940] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 08 05:50:34.145709 2015] [mpm_prefork:notice] [pid 21940] AH00169: caught SIGTERM, shutting down
+[Thu Oct 08 05:51:39.911716 2015] [mpm_prefork:notice] [pid 1675] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Thu Oct 08 05:51:39.913797 2015] [core:notice] [pid 1675] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 08 06:13:43.847275 2015] [mpm_prefork:notice] [pid 1675] AH00171: Graceful restart requested, doing restart
+[Thu Oct 08 06:13:44.590839 2015] [alias:warn] [pid 1675] AH00671: The ScriptAlias directive in /etc/apache2/conf-available/serve-cgi-bin.conf at line 11 will probably never match because it overlaps an earlier ScriptAlias.
+[Thu Oct 08 06:13:44.593018 2015] [alias:warn] [pid 1675] AH00671: The ScriptAlias directive in /etc/apache2/conf-available/serve-cgi-bin.conf at line 11 will probably never match because it overlaps an earlier ScriptAlias.
+[Thu Oct 08 06:13:45.369317 2015] [mpm_prefork:notice] [pid 1675] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Thu Oct 08 06:13:45.369364 2015] [core:notice] [pid 1675] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 08 07:11:24.491255 2015] [mpm_prefork:notice] [pid 1675] AH00169: caught SIGTERM, shutting down
+[Thu Oct 08 07:12:32.442616 2015] [mpm_prefork:notice] [pid 1783] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Thu Oct 08 07:12:32.457303 2015] [core:notice] [pid 1783] AH00094: Command line: '/usr/sbin/apache2'
