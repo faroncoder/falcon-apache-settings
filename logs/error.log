@@ -1,0 +1,297 @@
+[Sat Oct 03 15:33:13.578411 2015] [mpm_event:notice] [pid 28305:tid 140711953700736] AH00489: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Sat Oct 03 15:33:13.578739 2015] [core:notice] [pid 28305:tid 140711953700736] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 15:35:30.916402 2015] [mpm_event:notice] [pid 28305:tid 140711953700736] AH00491: caught SIGTERM, shutting down
+[Sat Oct 03 15:35:32.091312 2015] [mpm_event:notice] [pid 28522:tid 139770602698624] AH00489: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Sat Oct 03 15:35:32.091544 2015] [core:notice] [pid 28522:tid 139770602698624] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 15:37:27.729692 2015] [mpm_event:notice] [pid 28522:tid 139770602698624] AH00491: caught SIGTERM, shutting down
+[Sat Oct 03 15:37:28.906125 2015] [mpm_event:notice] [pid 28675:tid 139898309633920] AH00489: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Sat Oct 03 15:37:28.906350 2015] [core:notice] [pid 28675:tid 139898309633920] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 15:40:24.621007 2015] [mpm_event:notice] [pid 28675:tid 139898309633920] AH00491: caught SIGTERM, shutting down
+[Sat Oct 03 15:41:10.981067 2015] [mpm_event:notice] [pid 28973:tid 139698904405888] AH00489: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Sat Oct 03 15:41:10.981269 2015] [core:notice] [pid 28973:tid 139698904405888] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 15:41:14.096579 2015] [authz_core:error] [pid 28977:tid 139698710247168] [client 192.168.1.10:38034] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:41:15.288333 2015] [authz_core:error] [pid 28977:tid 139698701854464] [client 192.168.1.10:38034] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:41:15.961924 2015] [authz_core:error] [pid 28977:tid 139698693461760] [client 192.168.1.10:38034] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:41:16.320973 2015] [authz_core:error] [pid 28977:tid 139698685069056] [client 192.168.1.10:38034] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:41:16.616146 2015] [authz_core:error] [pid 28977:tid 139698676676352] [client 192.168.1.10:38034] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:41:16.719658 2015] [authz_core:error] [pid 28977:tid 139698668283648] [client 192.168.1.10:38034] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:41:16.948802 2015] [authz_core:error] [pid 28977:tid 139698659890944] [client 192.168.1.10:38034] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:41:58.276450 2015] [mpm_event:notice] [pid 28973:tid 139698904405888] AH00491: caught SIGTERM, shutting down
+[Sat Oct 03 15:41:59.448030 2015] [mpm_event:notice] [pid 29141:tid 139845097731968] AH00489: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Sat Oct 03 15:41:59.448255 2015] [core:notice] [pid 29141:tid 139845097731968] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 15:42:02.995829 2015] [authz_core:error] [pid 29144:tid 139844940461824] [client 192.168.1.10:38042] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:42:04.034688 2015] [authz_core:error] [pid 29144:tid 139844873320192] [client 192.168.1.10:38042] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:42:04.625700 2015] [authz_core:error] [pid 29144:tid 139844864927488] [client 192.168.1.10:38042] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:42:05.015248 2015] [authz_core:error] [pid 29144:tid 139844856534784] [client 192.168.1.10:38042] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:42:05.343265 2015] [authz_core:error] [pid 29144:tid 139844848142080] [client 192.168.1.10:38042] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:42:05.580110 2015] [authz_core:error] [pid 29144:tid 139844839749376] [client 192.168.1.10:38042] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:42:05.898178 2015] [authz_core:error] [pid 29144:tid 139844831356672] [client 192.168.1.10:38042] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:42:06.180182 2015] [authz_core:error] [pid 29144:tid 139844881712896] [client 192.168.1.10:38042] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:42:06.474623 2015] [authz_core:error] [pid 29144:tid 139844822963968] [client 192.168.1.10:38042] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:42:08.755171 2015] [authz_core:error] [pid 29144:tid 139844814571264] [client 192.168.1.10:38042] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:48:22.873587 2015] [mpm_event:notice] [pid 29141:tid 139845097731968] AH00491: caught SIGTERM, shutting down
+[Sat Oct 03 15:48:24.058858 2015] [mpm_event:notice] [pid 29399:tid 139850028038016] AH00489: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Sat Oct 03 15:48:24.059103 2015] [core:notice] [pid 29399:tid 139850028038016] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 15:48:34.012337 2015] [authz_core:error] [pid 29402:tid 139849918592768] [client 192.168.1.10:38084] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:49:12.260099 2015] [mpm_event:notice] [pid 29399:tid 139850028038016] AH00491: caught SIGTERM, shutting down
+[Sat Oct 03 15:49:13.440880 2015] [mpm_event:notice] [pid 29536:tid 140041686718336] AH00489: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Sat Oct 03 15:49:13.441087 2015] [core:notice] [pid 29536:tid 140041686718336] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 15:49:37.302635 2015] [authz_core:error] [pid 29539:tid 140041585665792] [client 192.168.1.10:38101] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:49:37.832361 2015] [authz_core:error] [pid 29539:tid 140041594058496] [client 192.168.1.10:38101] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/fog/management
+[Sat Oct 03 15:49:41.635817 2015] [authz_core:error] [pid 29539:tid 140041602451200] [client 192.168.1.10:38101] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:49:41.998943 2015] [authz_core:error] [pid 29539:tid 140041351255808] [client 192.168.1.10:38101] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 15:50:50.191828 2015] [mpm_event:notice] [pid 29536:tid 140041686718336] AH00491: caught SIGTERM, shutting down
+[Sat Oct 03 15:50:51.373082 2015] [mpm_event:notice] [pid 29734:tid 140124434843520] AH00489: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Sat Oct 03 15:50:51.373306 2015] [core:notice] [pid 29734:tid 140124434843520] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 15:50:53.372092 2015] [authz_core:error] [pid 29737:tid 140124197197568] [client 192.168.1.10:38113] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:50:53.765777 2015] [authz_core:error] [pid 29737:tid 140124188804864] [client 192.168.1.10:38113] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 15:50:54.912880 2015] [authz_core:error] [pid 29737:tid 140124180412160] [client 192.168.1.10:38113] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:50:55.278938 2015] [authz_core:error] [pid 29737:tid 140124172019456] [client 192.168.1.10:38113] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 15:50:55.389340 2015] [authz_core:error] [pid 29737:tid 140124163626752] [client 192.168.1.10:38113] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:50:55.448159 2015] [authz_core:error] [pid 29737:tid 140124155234048] [client 192.168.1.10:38113] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:50:55.662163 2015] [authz_core:error] [pid 29737:tid 140124205590272] [client 192.168.1.10:38113] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:50:55.788725 2015] [authz_core:error] [pid 29737:tid 140124146841344] [client 192.168.1.10:38113] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 15:50:55.970139 2015] [authz_core:error] [pid 29737:tid 140124138448640] [client 192.168.1.10:38113] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:50:56.102713 2015] [authz_core:error] [pid 29737:tid 140124130055936] [client 192.168.1.10:38113] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 15:50:56.134657 2015] [authz_core:error] [pid 29737:tid 140124121663232] [client 192.168.1.10:38113] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:50:56.404338 2015] [authz_core:error] [pid 29737:tid 140124113270528] [client 192.168.1.10:38113] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:50:56.520077 2015] [authz_core:error] [pid 29737:tid 140124104877824] [client 192.168.1.10:38113] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 15:50:56.820449 2015] [authz_core:error] [pid 29737:tid 140124096485120] [client 192.168.1.10:38113] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 15:57:47.199930 2015] [authz_core:error] [pid 29737:tid 140124088092416] [client 192.168.1.10:38166] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:57:47.576328 2015] [authz_core:error] [pid 29737:tid 140124079699712] [client 192.168.1.10:38166] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 15:57:47.936924 2015] [authz_core:error] [pid 29737:tid 140124222375680] [client 192.168.1.10:38166] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 15:57:48.273148 2015] [authz_core:error] [pid 29737:tid 140124230768384] [client 192.168.1.10:38166] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:00:55.192214 2015] [mpm_event:notice] [pid 29734:tid 140124434843520] AH00491: caught SIGTERM, shutting down
+[Sat Oct 03 16:00:56.361950 2015] [mpm_prefork:notice] [pid 11824] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Sat Oct 03 16:00:56.362272 2015] [core:notice] [pid 11824] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 16:00:58.189083 2015] [mpm_prefork:notice] [pid 11824] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 16:00:59.402060 2015] [mpm_prefork:notice] [pid 11941] AH00163: Apache/2.4.10 (Ubuntu) configured -- resuming normal operations
+[Sat Oct 03 16:00:59.402174 2015] [core:notice] [pid 11941] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 16:12:30.983210 2015] [mpm_prefork:notice] [pid 11941] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 16:12:32.324450 2015] [mpm_prefork:notice] [pid 19293] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 16:12:32.324545 2015] [core:notice] [pid 19293] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 16:13:11.079645 2015] [authz_core:error] [pid 19297] [client 192.168.1.10:38284] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:13:11.432729 2015] [authz_core:error] [pid 19297] [client 192.168.1.10:38284] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:13:11.884759 2015] [authz_core:error] [pid 19297] [client 192.168.1.10:38284] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:13:12.233078 2015] [authz_core:error] [pid 19297] [client 192.168.1.10:38284] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:13:12.503265 2015] [authz_core:error] [pid 19297] [client 192.168.1.10:38284] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:13:12.808092 2015] [authz_core:error] [pid 19297] [client 192.168.1.10:38284] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:13:13.040843 2015] [authz_core:error] [pid 19297] [client 192.168.1.10:38284] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:13:13.267517 2015] [authz_core:error] [pid 19297] [client 192.168.1.10:38284] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:15:10.364813 2015] [mpm_prefork:notice] [pid 19293] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 16:15:11.598318 2015] [mpm_prefork:notice] [pid 19411] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 16:15:11.598414 2015] [core:notice] [pid 19411] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 16:15:16.850025 2015] [authz_core:error] [pid 19415] [client 192.168.1.10:38301] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:15:17.287447 2015] [authz_core:error] [pid 19415] [client 192.168.1.10:38301] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:15:17.912462 2015] [authz_core:error] [pid 19415] [client 192.168.1.10:38301] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:15:18.320603 2015] [authz_core:error] [pid 19415] [client 192.168.1.10:38301] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:15:18.437085 2015] [authz_core:error] [pid 19415] [client 192.168.1.10:38301] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:15:18.701272 2015] [authz_core:error] [pid 19415] [client 192.168.1.10:38301] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:15:18.811598 2015] [authz_core:error] [pid 19415] [client 192.168.1.10:38301] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:15:19.051300 2015] [authz_core:error] [pid 19415] [client 192.168.1.10:38301] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:34:32.746309 2015] [authz_core:error] [pid 19416] [client 192.168.1.10:38678] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:34:33.289923 2015] [authz_core:error] [pid 19416] [client 192.168.1.10:38678] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:34:33.587515 2015] [authz_core:error] [pid 19416] [client 192.168.1.10:38678] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:34:33.997497 2015] [authz_core:error] [pid 19416] [client 192.168.1.10:38678] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:39:40.392868 2015] [mpm_prefork:notice] [pid 19411] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 16:39:41.627600 2015] [mpm_prefork:notice] [pid 20096] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 16:39:41.627698 2015] [core:notice] [pid 20096] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 16:39:46.992281 2015] [authz_core:error] [pid 20100] [client 192.168.1.10:38758] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:39:47.511502 2015] [authz_core:error] [pid 20100] [client 192.168.1.10:38758] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:39:47.870060 2015] [authz_core:error] [pid 20100] [client 192.168.1.10:38758] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:39:48.266023 2015] [authz_core:error] [pid 20100] [client 192.168.1.10:38758] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:41:03.922590 2015] [mpm_prefork:notice] [pid 20096] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 16:41:05.180669 2015] [mpm_prefork:notice] [pid 20207] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 16:41:05.180769 2015] [core:notice] [pid 20207] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 16:41:10.017158 2015] [authz_core:error] [pid 20211] [client 192.168.1.10:38770] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:41:10.504805 2015] [authz_core:error] [pid 20211] [client 192.168.1.10:38770] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:43:56.019124 2015] [mpm_prefork:notice] [pid 20207] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 16:43:57.339182 2015] [mpm_prefork:notice] [pid 20288] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 16:43:57.339276 2015] [core:notice] [pid 20288] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 16:43:59.765767 2015] [authz_core:error] [pid 20292] [client 192.168.1.10:38811] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:44:00.270240 2015] [authz_core:error] [pid 20292] [client 192.168.1.10:38811] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:44:00.638291 2015] [authz_core:error] [pid 20292] [client 192.168.1.10:38811] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:44:01.007292 2015] [authz_core:error] [pid 20292] [client 192.168.1.10:38811] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:49:18.127744 2015] [authz_core:error] [pid 20294] [client 192.168.1.10:38881] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:49:18.523936 2015] [authz_core:error] [pid 20294] [client 192.168.1.10:38881] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:49:18.633752 2015] [authz_core:error] [pid 20294] [client 192.168.1.10:38881] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 16:49:19.077286 2015] [authz_core:error] [pid 20294] [client 192.168.1.10:38881] AH01630: client denied by server configuration: /var/www, referer: http://192.168.1.10/
+[Sat Oct 03 16:58:48.991086 2015] [authz_core:error] [pid 20293] [client 157.55.39.102:16093] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 17:15:46.240336 2015] [mpm_prefork:notice] [pid 20288] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:15:47.815512 2015] [mpm_prefork:notice] [pid 4169] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:15:47.815635 2015] [core:notice] [pid 4169] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 17:16:13.349633 2015] [authz_core:error] [pid 4175] [client 192.168.1.10:39243] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 17:18:25.229979 2015] [mpm_prefork:notice] [pid 4169] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:18:26.514405 2015] [mpm_prefork:notice] [pid 8705] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:18:26.514581 2015] [core:notice] [pid 8705] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 17:18:28.969044 2015] [authz_core:error] [pid 8709] [client 192.168.1.10:39260] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 17:18:29.960767 2015] [authz_core:error] [pid 8709] [client 192.168.1.10:39260] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 17:18:30.989236 2015] [authz_core:error] [pid 8709] [client 192.168.1.10:39260] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 17:18:46.131684 2015] [authz_core:error] [pid 8709] [client 192.168.1.10:39260] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 17:18:47.020724 2015] [authz_core:error] [pid 8709] [client 192.168.1.10:39260] AH01630: client denied by server configuration: /var/www
+[Sat Oct 03 17:19:23.158884 2015] [mpm_prefork:notice] [pid 8705] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:21:16.603273 2015] [mpm_prefork:notice] [pid 10120] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:21:16.603391 2015] [core:notice] [pid 10120] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 17:22:25.365968 2015] [mpm_prefork:notice] [pid 10120] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:22:26.598721 2015] [mpm_prefork:notice] [pid 10273] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:22:26.598829 2015] [core:notice] [pid 10273] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 17:24:13.677029 2015] [mpm_prefork:notice] [pid 10273] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:24:14.872731 2015] [mpm_prefork:notice] [pid 10365] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:24:14.872839 2015] [core:notice] [pid 10365] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 17:24:43.518693 2015] [mpm_prefork:notice] [pid 10365] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:24:44.742137 2015] [mpm_prefork:notice] [pid 10452] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:24:44.742253 2015] [core:notice] [pid 10452] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 17:25:17.960857 2015] [mpm_prefork:notice] [pid 10452] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:26:03.913282 2015] [mpm_prefork:notice] [pid 10590] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:26:03.913401 2015] [core:notice] [pid 10590] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 17:26:39.747841 2015] [mpm_prefork:notice] [pid 10590] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:26:41.021855 2015] [mpm_prefork:notice] [pid 10675] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:26:41.021962 2015] [core:notice] [pid 10675] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 17:29:48.435268 2015] [mpm_prefork:notice] [pid 10675] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:29:49.637361 2015] [mpm_prefork:notice] [pid 10861] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:29:49.637469 2015] [core:notice] [pid 10861] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 17:31:08.755986 2015] [mpm_prefork:notice] [pid 10861] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:31:09.976497 2015] [mpm_prefork:notice] [pid 11857] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:31:09.976611 2015] [core:notice] [pid 11857] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 17:35:41.740358 2015] [mpm_prefork:notice] [pid 11857] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:35:43.010145 2015] [mpm_prefork:notice] [pid 12142] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:35:43.010259 2015] [core:notice] [pid 12142] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 17:37:27.924845 2015] [mpm_prefork:notice] [pid 12142] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:37:29.161130 2015] [mpm_prefork:notice] [pid 12248] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:37:29.161240 2015] [core:notice] [pid 12248] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 17:38:05.820062 2015] [mpm_prefork:notice] [pid 12248] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:38:07.126679 2015] [mpm_prefork:notice] [pid 12323] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:38:07.126798 2015] [core:notice] [pid 12323] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 17:39:16.976825 2015] [mpm_prefork:notice] [pid 12323] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:39:18.187337 2015] [mpm_prefork:notice] [pid 12436] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:39:18.187449 2015] [core:notice] [pid 12436] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 03 17:39:36.279133 2015] [mpm_prefork:notice] [pid 12436] AH00169: caught SIGTERM, shutting down
+[Sat Oct 03 17:39:37.543635 2015] [mpm_prefork:notice] [pid 12864] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 03 17:39:37.543752 2015] [core:notice] [pid 12864] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 04 07:43:42.376224 2015] [mpm_prefork:notice] [pid 12864] AH00171: Graceful restart requested, doing restart
+[Sun Oct 04 07:43:44.111623 2015] [mpm_prefork:notice] [pid 12864] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 04 07:43:44.111735 2015] [core:notice] [pid 12864] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 04 15:24:09.062519 2015] [mpm_prefork:notice] [pid 12864] AH00169: caught SIGTERM, shutting down
+[Sun Oct 04 15:27:17.727959 2015] [mpm_prefork:notice] [pid 1551] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 04 15:27:17.760712 2015] [core:notice] [pid 1551] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 04 15:33:18.339573 2015] [mpm_prefork:notice] [pid 1551] AH00169: caught SIGTERM, shutting down
+[Sun Oct 04 15:33:19.599159 2015] [mpm_prefork:notice] [pid 4297] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 04 15:33:19.599260 2015] [core:notice] [pid 4297] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 04 15:34:46.846913 2015] [mpm_prefork:notice] [pid 4297] AH00169: caught SIGTERM, shutting down
+[Sun Oct 04 15:34:48.108676 2015] [mpm_prefork:notice] [pid 4455] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 04 15:34:48.108781 2015] [core:notice] [pid 4455] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 04 15:37:13.211935 2015] [mpm_prefork:notice] [pid 4455] AH00169: caught SIGTERM, shutting down
+[Sun Oct 04 15:37:14.507797 2015] [mpm_prefork:notice] [pid 4695] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 04 15:37:14.508448 2015] [core:notice] [pid 4695] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 04 15:38:03.353267 2015] [mpm_prefork:notice] [pid 4695] AH00169: caught SIGTERM, shutting down
+[Sun Oct 04 15:38:04.589931 2015] [mpm_prefork:notice] [pid 4812] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 04 15:38:04.590033 2015] [core:notice] [pid 4812] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 04 15:39:51.882918 2015] [mpm_prefork:notice] [pid 4812] AH00169: caught SIGTERM, shutting down
+[Sun Oct 04 15:39:53.293380 2015] [mpm_prefork:notice] [pid 4977] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 04 15:39:53.294131 2015] [core:notice] [pid 4977] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 04 15:40:21.408022 2015] [mpm_prefork:notice] [pid 4977] AH00169: caught SIGTERM, shutting down
+[Sun Oct 04 15:41:49.287892 2015] [mpm_prefork:notice] [pid 1569] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 04 15:41:49.308168 2015] [core:notice] [pid 1569] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 04 15:50:25.334252 2015] [mpm_prefork:notice] [pid 1569] AH00169: caught SIGTERM, shutting down
+[Sun Oct 04 15:51:52.754168 2015] [mpm_prefork:notice] [pid 1570] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 04 15:51:52.775999 2015] [core:notice] [pid 1570] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 07:36:55.762887 2015] [mpm_prefork:notice] [pid 1570] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 07:36:56.983825 2015] [mpm_prefork:notice] [pid 14263] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 07:36:56.983932 2015] [core:notice] [pid 14263] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 07:40:38.037169 2015] [mpm_prefork:notice] [pid 14263] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 07:41:41.387766 2015] [mpm_prefork:notice] [pid 14613] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 07:41:41.387895 2015] [core:notice] [pid 14613] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 07:59:54.325142 2015] [mpm_prefork:notice] [pid 14613] AH00171: Graceful restart requested, doing restart
+[Mon Oct 05 07:59:54.454216 2015] [mpm_prefork:notice] [pid 14613] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 07:59:54.454265 2015] [core:notice] [pid 14613] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 08:02:40.526127 2015] [mpm_prefork:notice] [pid 14613] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 08:02:41.734354 2015] [mpm_prefork:notice] [pid 16646] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 08:02:41.734458 2015] [core:notice] [pid 16646] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 08:03:15.020877 2015] [mpm_prefork:notice] [pid 16646] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 08:03:16.300942 2015] [mpm_prefork:notice] [pid 16734] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 08:03:16.301043 2015] [core:notice] [pid 16734] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 08:19:54.614757 2015] [mpm_prefork:notice] [pid 16734] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 08:21:59.669250 2015] [mpm_prefork:notice] [pid 17774] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 08:21:59.669361 2015] [core:notice] [pid 17774] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 08:42:45.997337 2015] [mpm_prefork:notice] [pid 17774] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 08:42:47.332378 2015] [mpm_prefork:notice] [pid 18718] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 08:42:47.332537 2015] [core:notice] [pid 18718] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 08:49:15.309763 2015] [mpm_prefork:notice] [pid 18718] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 08:49:16.607435 2015] [mpm_prefork:notice] [pid 19491] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 08:49:16.607501 2015] [core:notice] [pid 19491] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 08:59:00.337174 2015] [mpm_prefork:notice] [pid 19491] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 08:59:01.618243 2015] [mpm_prefork:notice] [pid 19869] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 08:59:01.618315 2015] [core:notice] [pid 19869] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 09:00:36.700461 2015] [mpm_prefork:notice] [pid 19869] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 09:00:38.017005 2015] [mpm_prefork:notice] [pid 19985] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 09:00:38.017082 2015] [core:notice] [pid 19985] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 09:26:34.293301 2015] [mpm_prefork:notice] [pid 19985] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 09:26:35.803199 2015] [mpm_prefork:notice] [pid 20692] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 09:26:35.803286 2015] [core:notice] [pid 20692] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 09:27:33.747040 2015] [mpm_prefork:notice] [pid 20692] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 09:27:34.995344 2015] [mpm_prefork:notice] [pid 20818] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 09:27:34.995417 2015] [core:notice] [pid 20818] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 09:29:25.935608 2015] [mpm_prefork:notice] [pid 20818] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 09:29:27.135027 2015] [mpm_prefork:notice] [pid 20961] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 09:29:27.135125 2015] [core:notice] [pid 20961] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 09:33:39.946815 2015] [mpm_prefork:notice] [pid 20961] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 09:33:41.156986 2015] [mpm_prefork:notice] [pid 21248] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 09:33:41.157054 2015] [core:notice] [pid 21248] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 09:44:00.422907 2015] [mpm_prefork:notice] [pid 21248] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 09:44:01.704292 2015] [mpm_prefork:notice] [pid 21888] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 09:44:01.704374 2015] [core:notice] [pid 21888] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 09:49:13.018855 2015] [mpm_prefork:notice] [pid 21888] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 09:49:14.234537 2015] [mpm_prefork:notice] [pid 22151] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 09:49:14.235136 2015] [core:notice] [pid 22151] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 09:50:03.202899 2015] [mpm_prefork:notice] [pid 22151] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 09:51:07.106331 2015] [mpm_prefork:notice] [pid 22363] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 09:51:07.106411 2015] [core:notice] [pid 22363] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 09:51:42.466454 2015] [mpm_prefork:notice] [pid 22363] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 09:51:43.693181 2015] [mpm_prefork:notice] [pid 22470] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 09:51:43.693253 2015] [core:notice] [pid 22470] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 09:53:33.194405 2015] [mpm_prefork:notice] [pid 22470] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 09:53:34.356250 2015] [mpm_prefork:notice] [pid 22622] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 09:53:34.356320 2015] [core:notice] [pid 22622] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 09:55:03.157182 2015] [mpm_prefork:notice] [pid 22622] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 09:55:04.611686 2015] [mpm_prefork:notice] [pid 22802] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 09:55:04.611822 2015] [core:notice] [pid 22802] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 09:55:56.563097 2015] [mpm_prefork:notice] [pid 22802] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 09:55:57.779996 2015] [mpm_prefork:notice] [pid 22931] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 09:55:57.780065 2015] [core:notice] [pid 22931] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 10:01:11.013159 2015] [mpm_prefork:notice] [pid 22931] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 10:01:12.315343 2015] [mpm_prefork:notice] [pid 23328] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 10:01:12.315409 2015] [core:notice] [pid 23328] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 10:04:46.050906 2015] [mpm_prefork:notice] [pid 23328] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 10:04:47.276627 2015] [mpm_prefork:notice] [pid 23513] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 10:04:47.276701 2015] [core:notice] [pid 23513] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 11:14:46.109686 2015] [mpm_prefork:notice] [pid 23513] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 11:16:12.937807 2015] [mpm_prefork:notice] [pid 1567] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 11:16:12.952074 2015] [core:notice] [pid 1567] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 12:06:12.058939 2015] [mpm_prefork:notice] [pid 1567] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 12:06:13.304812 2015] [mpm_prefork:notice] [pid 4381] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 12:06:13.304887 2015] [core:notice] [pid 4381] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Oct 05 14:40:11.167623 2015] [mpm_prefork:notice] [pid 4381] AH00169: caught SIGTERM, shutting down
+[Mon Oct 05 14:41:38.503502 2015] [mpm_prefork:notice] [pid 1582] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Oct 05 14:41:38.526906 2015] [core:notice] [pid 1582] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 06 03:56:06.683920 2015] [mpm_prefork:notice] [pid 1582] AH00169: caught SIGTERM, shutting down
+[Tue Oct 06 03:56:08.313761 2015] [mpm_prefork:notice] [pid 23687] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Tue Oct 06 03:56:08.313960 2015] [core:notice] [pid 23687] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 06 04:37:22.457202 2015] [mpm_prefork:notice] [pid 23687] AH00169: caught SIGTERM, shutting down
+[Tue Oct 06 04:37:23.908016 2015] [mpm_prefork:notice] [pid 25104] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Tue Oct 06 04:37:23.908103 2015] [core:notice] [pid 25104] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 06 08:07:32.582936 2015] [mpm_prefork:notice] [pid 25104] AH00171: Graceful restart requested, doing restart
+[Tue Oct 06 08:07:37.166026 2015] [alias:warn] [pid 25104] AH00671: The ScriptAlias directive in /etc/apache2/conf-available/serve-cgi-bin.conf at line 11 will probably never match because it overlaps an earlier ScriptAlias.
+[Tue Oct 06 08:07:39.404559 2015] [mpm_prefork:notice] [pid 25104] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Tue Oct 06 08:07:39.404625 2015] [core:notice] [pid 25104] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 06 13:30:30.027241 2015] [mpm_prefork:notice] [pid 25104] AH00169: caught SIGTERM, shutting down
+[Tue Oct 06 13:32:23.434567 2015] [mpm_prefork:notice] [pid 1552] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Tue Oct 06 13:32:23.460738 2015] [core:notice] [pid 1552] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 07 15:47:44.708533 2015] [mpm_prefork:notice] [pid 1552] AH00169: caught SIGTERM, shutting down
+[Wed Oct 07 15:49:27.125166 2015] [mpm_prefork:notice] [pid 1558] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Wed Oct 07 15:49:27.151830 2015] [core:notice] [pid 1558] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 07 21:47:56.945485 2015] [mpm_prefork:notice] [pid 1558] AH00169: caught SIGTERM, shutting down
+[Wed Oct 07 21:47:58.308981 2015] [mpm_prefork:notice] [pid 24457] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Wed Oct 07 21:47:58.309054 2015] [core:notice] [pid 24457] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 07 21:54:54.478030 2015] [mpm_prefork:notice] [pid 24457] AH00169: caught SIGTERM, shutting down
+[Wed Oct 07 21:54:55.747032 2015] [mpm_prefork:notice] [pid 24665] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Wed Oct 07 21:54:55.747101 2015] [core:notice] [pid 24665] AH00094: Command line: '/usr/sbin/apache2'
