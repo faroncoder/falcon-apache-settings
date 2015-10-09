@@ -338,3 +338,16 @@
 [Thu Oct 08 08:57:02.175548 2015] [mpm_prefork:notice] [pid 1783] AH00169: caught SIGTERM, shutting down
 [Thu Oct 08 08:59:34.356103 2015] [mpm_prefork:notice] [pid 1766] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
 [Thu Oct 08 08:59:34.368064 2015] [core:notice] [pid 1766] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 08 12:09:42.406334 2015] [mpm_prefork:notice] [pid 1766] AH00169: caught SIGTERM, shutting down
+[Thu Oct 08 12:10:55.301867 2015] [mpm_prefork:notice] [pid 1762] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Thu Oct 08 12:10:55.317276 2015] [core:notice] [pid 1762] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 08 12:20:55.436457 2015] [mpm_prefork:notice] [pid 1762] AH00169: caught SIGTERM, shutting down
+[Thu Oct 08 12:22:06.801123 2015] [mpm_prefork:notice] [pid 1755] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Thu Oct 08 12:22:06.812322 2015] [core:notice] [pid 1755] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 08 14:19:18.649903 2015] [mpm_prefork:notice] [pid 2619] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Thu Oct 08 14:19:18.650148 2015] [core:notice] [pid 2619] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 08 22:16:39.276244 2015] [mpm_prefork:notice] [pid 1669] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Thu Oct 08 22:16:39.290508 2015] [core:notice] [pid 1669] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Oct 09 15:07:07.928221 2015] [mpm_prefork:notice] [pid 1669] AH00169: caught SIGTERM, shutting down
+[Fri Oct 09 15:07:09.253899 2015] [mpm_prefork:notice] [pid 5764] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Fri Oct 09 15:07:09.253968 2015] [core:notice] [pid 5764] AH00094: Command line: '/usr/sbin/apache2'
