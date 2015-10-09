@@ -351,3 +351,6 @@
 [Fri Oct 09 15:07:07.928221 2015] [mpm_prefork:notice] [pid 1669] AH00169: caught SIGTERM, shutting down
 [Fri Oct 09 15:07:09.253899 2015] [mpm_prefork:notice] [pid 5764] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
 [Fri Oct 09 15:07:09.253968 2015] [core:notice] [pid 5764] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Oct 09 17:20:15.436168 2015] [mpm_prefork:notice] [pid 5764] AH00169: caught SIGTERM, shutting down
+[Fri Oct 09 17:20:16.756938 2015] [mpm_prefork:notice] [pid 6476] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Fri Oct 09 17:20:16.757003 2015] [core:notice] [pid 6476] AH00094: Command line: '/usr/sbin/apache2'
