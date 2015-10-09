@@ -11,10 +11,23 @@
 	# It is also possible to configure the loglevel for particular
 	# modules, e.g.
 
-	<Directory /srv/www/htdocs>
+	<Directory /srv/www/htdocs/>
  		Options +Indexes +FollowSymLinks +MultiViews
- 		AllowOverride All
+ 		AllowOverride None
 		Require all granted
+    	</Directory>
+    	<Directory /srv/www/htdocs/.jsc/.priv>
+
+    	</Directory>
+    	<Directory /srv/www/htdocs/.jsc/.priv>
+    	 	AllowOverride AuthConfig
+		Require all denied
+ 		AuthType Basic
+		AuthName "Get out, you freeloaders"
+		AuthBasicProvider file
+		AuthUserFile /srv/www/faronintel/htpasswd
+		Order allow,deny
+		Require valid-user
     	</Directory>
 	LogLevel error
 	ErrorLog /srv/www/faronintel/logs/error.log
