@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Not your business"
+AuthBasicProvider file
+AuthUserFile /srv/www/faronintel/htpasswd
+require valid-user
