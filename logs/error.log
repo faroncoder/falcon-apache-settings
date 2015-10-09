@@ -382,3 +382,5 @@
 =======
 >>>>>>> 6aacc7c713df932ae431d2f8e997deeac50130aa
 >>>>>>> e498e352d6a596ea01f347483ace150394095def
+[Fri Oct 09 17:30:17.905602 2015] [mpm_prefork:notice] [pid 6951] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Fri Oct 09 17:30:17.905693 2015] [core:notice] [pid 6951] AH00094: Command line: '/usr/sbin/apache2'
