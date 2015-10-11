@@ -1,0 +1,43 @@
+// prime the server with knowledge of the root servers
+zone "." {
+	type hint;
+	file "/home/www/settings/binds/db.root";
+};
+
+// be authoritative for the localhost forward and reverse zones, and for
+// broadcast zones as per RFC 1912
+
+zone "localhost" {
+	type master;
+	file "/home/www/settings/binds/db.local";
+};
+
+zone "faronhost.ca" {
+         type master;
+         file "/home/www/settings/binds/faronhost_ca.local";
+         allow-transfer { 64.68.198.91/32; 64.68.198.183/32; };
+         also-notify { 64.68.198.91; 64.68.198.183/32; };
+ };
+
+
+zone "127.in-addr.arpa" {
+	type master;
+	file "/home/www/settings/binds/db.127";
+};
+
+zone "192.in-addr.arpa" {
+	type master;
+	file "/home/www/settings/binds/db.192";
+};
+
+zone "0.in-addr.arpa" {
+	type master;
+	file "/home/www/settings/binds/db.0";
+};
+
+zone "255.in-addr.arpa" {
+	type master;
+	file "/home/www/settings/binds/db.255";
+};
+
+

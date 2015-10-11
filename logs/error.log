@@ -384,3 +384,54 @@
 >>>>>>> e498e352d6a596ea01f347483ace150394095def
 [Fri Oct 09 17:30:17.905602 2015] [mpm_prefork:notice] [pid 6951] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
 [Fri Oct 09 17:30:17.905693 2015] [core:notice] [pid 6951] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Oct 09 17:34:13.476320 2015] [auth_digest:notice] [pid 21635] AH01757: generating secret for digest authentication ...
+[Fri Oct 09 17:34:13.514622 2015] [mpm_prefork:notice] [pid 21635] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Fri Oct 09 17:34:13.514693 2015] [core:notice] [pid 21635] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Oct 09 21:08:59.258512 2015] [mpm_prefork:notice] [pid 21635] AH00169: caught SIGTERM, shutting down
+[Fri Oct 09 21:09:01.075430 2015] [auth_digest:notice] [pid 9932] AH01757: generating secret for digest authentication ...
+[Fri Oct 09 21:09:02.029545 2015] [mpm_prefork:notice] [pid 9932] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Fri Oct 09 21:09:02.029633 2015] [core:notice] [pid 9932] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Oct 09 21:09:09.193114 2015] [mpm_prefork:notice] [pid 9932] AH00171: Graceful restart requested, doing restart
+[Fri Oct 09 21:09:09.325988 2015] [alias:warn] [pid 9932] AH00671: The ScriptAlias directive in /etc/apache2/conf-available/serve-cgi-bin.conf at line 11 will probably never match because it overlaps an earlier ScriptAlias.
+[Fri Oct 09 21:09:09.327603 2015] [auth_digest:notice] [pid 9932] AH01757: generating secret for digest authentication ...
+[Fri Oct 09 21:09:10.001271 2015] [mpm_prefork:notice] [pid 9932] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Fri Oct 09 21:09:10.001373 2015] [core:notice] [pid 9932] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Oct 09 21:41:32.443163 2015] [mpm_prefork:notice] [pid 9932] AH00169: caught SIGTERM, shutting down
+[Fri Oct 09 21:43:10.052190 2015] [auth_digest:notice] [pid 1610] AH01757: generating secret for digest authentication ...
+[Fri Oct 09 21:43:14.030021 2015] [mpm_prefork:notice] [pid 1610] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Fri Oct 09 21:43:14.030113 2015] [core:notice] [pid 1610] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 10 14:54:19.713659 2015] [mpm_prefork:notice] [pid 1610] AH00169: caught SIGTERM, shutting down
+[Sat Oct 10 14:54:21.052224 2015] [auth_digest:notice] [pid 18373] AH01757: generating secret for digest authentication ...
+[Sat Oct 10 14:54:22.044840 2015] [mpm_prefork:notice] [pid 18373] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 10 14:54:22.045060 2015] [core:notice] [pid 18373] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 10 21:20:43.248153 2015] [mpm_prefork:notice] [pid 18373] AH00169: caught SIGTERM, shutting down
+[Sat Oct 10 21:22:33.050938 2015] [auth_digest:notice] [pid 1652] AH01757: generating secret for digest authentication ...
+[Sat Oct 10 21:22:42.010413 2015] [mpm_prefork:notice] [pid 1652] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sat Oct 10 21:22:42.010508 2015] [core:notice] [pid 1652] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 11 05:01:09.663043 2015] [mpm_prefork:notice] [pid 1652] AH00169: caught SIGTERM, shutting down
+[Sun Oct 11 05:04:09.070639 2015] [auth_digest:notice] [pid 4019] AH01757: generating secret for digest authentication ...
+[Sun Oct 11 05:04:10.012788 2015] [mpm_prefork:notice] [pid 4019] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 11 05:04:10.012924 2015] [core:notice] [pid 4019] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 11 06:32:11.520340 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:12.521691 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:13.522933 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:14.524114 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:15.525071 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:16.525309 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:17.526526 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:18.527838 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:19.529071 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:20.530314 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:21.531560 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:22.532731 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:23.533984 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:24.535245 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:25.536406 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:26.537572 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:27.538794 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:28.540123 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:29.541008 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:30.541443 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:31.542587 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:32.543063 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
+[Sun Oct 11 06:32:33.544190 2015] [core:warn] [pid 4019] (101)Network is unreachable: AH00056: connect to listener on [::]:80
