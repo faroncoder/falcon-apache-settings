@@ -1,7 +1,11 @@
 // prime the server with knowledge of the root servers
 zone "." {
 	type hint;
+<<<<<<< HEAD
 	file "/home/www/settings/binds/db.root";
+=======
+	file "/etc/bind/db.root";
+>>>>>>> ecbea31b20b62dbd2190b2c57e4676e9349f0f65
 };
 
 // be authoritative for the localhost forward and reverse zones, and for
@@ -9,6 +13,7 @@ zone "." {
 
 zone "localhost" {
 	type master;
+<<<<<<< HEAD
 	file "/home/www/settings/binds/db.local";
 };
 
@@ -28,16 +33,32 @@ zone "127.in-addr.arpa" {
 zone "192.in-addr.arpa" {
 	type master;
 	file "/home/www/settings/binds/db.192";
+=======
+	file "/etc/bind/db.local";
+};
+
+zone "127.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.127";
+>>>>>>> ecbea31b20b62dbd2190b2c57e4676e9349f0f65
 };
 
 zone "0.in-addr.arpa" {
 	type master;
+<<<<<<< HEAD
 	file "/home/www/settings/binds/db.0";
+=======
+	file "/etc/bind/db.0";
+>>>>>>> ecbea31b20b62dbd2190b2c57e4676e9349f0f65
 };
 
 zone "255.in-addr.arpa" {
 	type master;
+<<<<<<< HEAD
 	file "/home/www/settings/binds/db.255";
+=======
+	file "/etc/bind/db.255";
+>>>>>>> ecbea31b20b62dbd2190b2c57e4676e9349f0f65
 };
 
 
