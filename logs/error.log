@@ -390,3 +390,18 @@
 [Fri Oct 09 21:43:28.347913 2015] [mpm_prefork:notice] [pid 1782] AH00169: caught SIGTERM, shutting down
 [Fri Oct 09 21:44:50.894976 2015] [mpm_prefork:notice] [pid 1803] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
 [Fri Oct 09 21:44:50.908579 2015] [core:notice] [pid 1803] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 13 03:02:18.390585 2015] [mpm_prefork:notice] [pid 1803] AH00169: caught SIGTERM, shutting down
+[Tue Oct 13 03:03:41.805920 2015] [mpm_prefork:notice] [pid 1836] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Tue Oct 13 03:03:41.819596 2015] [core:notice] [pid 1836] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 13 03:16:41.636249 2015] [mpm_prefork:notice] [pid 1836] AH00169: caught SIGTERM, shutting down
+[Tue Oct 13 03:18:04.553453 2015] [mpm_prefork:notice] [pid 1816] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Tue Oct 13 03:18:04.565780 2015] [core:notice] [pid 1816] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 13 15:47:34.138146 2015] [mpm_prefork:notice] [pid 1816] AH00169: caught SIGTERM, shutting down
+[Tue Oct 13 15:48:58.590335 2015] [mpm_prefork:notice] [pid 1849] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Tue Oct 13 15:48:58.608280 2015] [core:notice] [pid 1849] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 14 09:11:42.868249 2015] [mpm_prefork:notice] [pid 1849] AH00169: caught SIGTERM, shutting down
+[Wed Oct 14 09:13:06.339617 2015] [mpm_prefork:notice] [pid 1819] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Wed Oct 14 09:13:06.366455 2015] [core:notice] [pid 1819] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Oct 16 05:42:58.506110 2015] [mpm_prefork:notice] [pid 1819] AH00169: caught SIGTERM, shutting down
+[Fri Oct 16 05:44:11.437112 2015] [mpm_prefork:notice] [pid 1793] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Fri Oct 16 05:44:11.453944 2015] [core:notice] [pid 1793] AH00094: Command line: '/usr/sbin/apache2'
