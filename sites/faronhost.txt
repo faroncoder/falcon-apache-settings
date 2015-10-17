@@ -4,7 +4,7 @@
 	ServerName faronhost.ca
 	ServerAlias www.faronhost.ca
 
-	ScriptAlias "/cgi-bin/" "/srv/www/faronhost/cgi-bin/"
+	#ScriptAlias "/cgi-bin/" "/srv/www/faronhost/cgi-bin/"
 
 	# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
 	# error, crit, alert, emerg.
@@ -12,20 +12,21 @@
 	# modules, e.g.
 	<Directory /srv/www/faronhost/htdocs>
  		Options +Indexes +FollowSymLinks +MultiViews
- 		AllowOverride All
+ 		AllowOverride None
 		Require all granted
     	</Directory>
+    	<Directory /srv/www/faronhost/htdocs/.jsc/.priv>
+    	 	AllowOverride AuthConfig
+	</Directory>
     	<Directory "/srv/www/faronhost/cgi-bin">
 		Options +ExecCGI
 	</Directory>
     	<Location "/server-status">
 		SetHandler server-status
-		Require host faronhost.ca
+		Require host 127.0.0.1
 	</Location>
-	<Directory "/srv/www/faronhost/htdocs/.jsc/.priv">
-		AllowOverride AuthConfig
-	</Directory>
-	LogLevel warn
+
+	LogLevel error
 	ErrorLog /srv/www/faronhost/logs/http-error.log
 	CustomLog /srv/www/faronhost/logs/http-access.log combined
 
@@ -41,19 +42,16 @@
 <IfModule mod_ssl.c>
 	<VirtualHost *:443>
 		ServerAdmin faronledger@gmail.com
-		DocumentRoot /srv/www/faronhost/htdocs
 		ServerName faronhost.ca
 		ServerAlias www.faronhost.ca
-
-		LogLevel info ssl:warn
+		DocumentRoot /srv/www/faronhost/htdocs
+		LogLevel info ssl:error
 		ErrorLog /srv/www/faronhost/logs/https-error.log
 		CustomLog /srv/www/faronhost/logs/https-access.log combined
-
 		Include conf-available/serve-cgi-bin.conf
 		SSLEngine on
-
-		SSLCertificateFile	/etc/ssl/certs/www_faronhost_ca.pem
-		SSLCertificateKeyFile /etc/ssl/private/www_faronhost_ca.pem
+		SSLCertificateFile	/etc/ssl/certs/A_faronhost_ca.pem
+		SSLCertificateKeyFile /etc/ssl/private/A_faronhost_ca.pem
 
 		#   Server Certificate Chain:
 		#   Point SSLCertificateChainFile at a file containing the

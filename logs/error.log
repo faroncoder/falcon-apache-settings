@@ -444,3 +444,103 @@
 [Fri Oct 09 21:44:50.894976 2015] [mpm_prefork:notice] [pid 1803] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
 [Fri Oct 09 21:44:50.908579 2015] [core:notice] [pid 1803] AH00094: Command line: '/usr/sbin/apache2'
 >>>>>>> ecbea31b20b62dbd2190b2c57e4676e9349f0f65
+[Sun Oct 11 07:35:07.049019 2015] [auth_digest:notice] [pid 1724] AH01757: generating secret for digest authentication ...
+[Sun Oct 11 07:35:11.063106 2015] [mpm_prefork:notice] [pid 1724] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 11 07:35:11.063196 2015] [core:notice] [pid 1724] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 11 09:19:18.980909 2015] [mpm_prefork:notice] [pid 1724] AH00169: caught SIGTERM, shutting down
+[Sun Oct 11 09:19:21.127382 2015] [auth_digest:notice] [pid 10382] AH01757: generating secret for digest authentication ...
+[Sun Oct 11 09:19:22.015317 2015] [mpm_prefork:notice] [pid 10382] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 11 09:19:22.015423 2015] [core:notice] [pid 10382] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 11 09:21:01.274502 2015] [mpm_prefork:notice] [pid 10382] AH00169: caught SIGTERM, shutting down
+[Sun Oct 11 09:21:03.084871 2015] [auth_digest:notice] [pid 10573] AH01757: generating secret for digest authentication ...
+[Sun Oct 11 09:21:04.040842 2015] [mpm_prefork:notice] [pid 10573] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 11 09:21:04.041019 2015] [core:notice] [pid 10573] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 11 09:21:56.371385 2015] [mpm_prefork:notice] [pid 10573] AH00169: caught SIGTERM, shutting down
+[Sun Oct 11 09:21:58.082366 2015] [auth_digest:notice] [pid 10664] AH01757: generating secret for digest authentication ...
+[Sun Oct 11 09:21:59.023893 2015] [mpm_prefork:notice] [pid 10664] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 11 09:21:59.024074 2015] [core:notice] [pid 10664] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 11 10:11:58.303542 2015] [mpm_prefork:notice] [pid 10664] AH00169: caught SIGTERM, shutting down
+[Sun Oct 11 10:12:00.068690 2015] [auth_digest:notice] [pid 12858] AH01757: generating secret for digest authentication ...
+[Sun Oct 11 10:12:01.014710 2015] [mpm_prefork:notice] [pid 12858] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 11 10:12:01.014817 2015] [core:notice] [pid 12858] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 11 10:18:03.432893 2015] [mpm_prefork:notice] [pid 12858] AH00169: caught SIGTERM, shutting down
+[Sun Oct 11 10:18:05.104487 2015] [auth_digest:notice] [pid 13017] AH01757: generating secret for digest authentication ...
+[Sun Oct 11 10:18:06.023370 2015] [mpm_prefork:notice] [pid 13017] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 11 10:18:06.023555 2015] [core:notice] [pid 13017] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 11 10:19:10.341975 2015] [mpm_prefork:notice] [pid 13017] AH00169: caught SIGTERM, shutting down
+[Sun Oct 11 10:19:12.062016 2015] [auth_digest:notice] [pid 13093] AH01757: generating secret for digest authentication ...
+[Sun Oct 11 10:19:13.011604 2015] [mpm_prefork:notice] [pid 13093] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Sun Oct 11 10:19:13.011708 2015] [core:notice] [pid 13093] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 13 01:17:04.051857 2015] [auth_digest:notice] [pid 1764] AH01757: generating secret for digest authentication ...
+[Tue Oct 13 01:17:08.031680 2015] [mpm_prefork:notice] [pid 1764] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Tue Oct 13 01:17:08.031764 2015] [core:notice] [pid 1764] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 13 01:51:34.060622 2015] [auth_digest:notice] [pid 1797] AH01757: generating secret for digest authentication ...
+[Tue Oct 13 01:51:35.012433 2015] [mpm_prefork:notice] [pid 1797] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Tue Oct 13 01:51:35.012521 2015] [core:notice] [pid 1797] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 13 01:56:28.087648 2015] [mpm_prefork:notice] [pid 1797] AH00169: caught SIGTERM, shutting down
+[Tue Oct 13 01:58:08.053450 2015] [auth_digest:notice] [pid 1715] AH01757: generating secret for digest authentication ...
+[Tue Oct 13 01:58:13.041101 2015] [mpm_prefork:notice] [pid 1715] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Tue Oct 13 01:58:13.041192 2015] [core:notice] [pid 1715] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 13 03:04:58.710757 2015] [mpm_prefork:notice] [pid 1715] AH00169: caught SIGTERM, shutting down
+[Tue Oct 13 03:06:47.051141 2015] [auth_digest:notice] [pid 2029] AH01757: generating secret for digest authentication ...
+[Tue Oct 13 03:06:52.067549 2015] [mpm_prefork:notice] [pid 2029] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Tue Oct 13 03:06:52.067640 2015] [core:notice] [pid 2029] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 13 03:18:09.063729 2015] [auth_digest:notice] [pid 2098] AH01757: generating secret for digest authentication ...
+[Tue Oct 13 03:18:10.015934 2015] [mpm_prefork:notice] [pid 2098] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Tue Oct 13 03:18:10.016022 2015] [core:notice] [pid 2098] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 13 15:02:04.051031 2015] [auth_digest:notice] [pid 1976] AH01757: generating secret for digest authentication ...
+[Tue Oct 13 15:02:07.010382 2015] [mpm_prefork:notice] [pid 1976] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Tue Oct 13 15:02:07.010469 2015] [core:notice] [pid 1976] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 13 15:50:15.831243 2015] [mpm_prefork:notice] [pid 1976] AH00169: caught SIGTERM, shutting down
+[Tue Oct 13 15:52:11.076076 2015] [auth_digest:notice] [pid 2065] AH01757: generating secret for digest authentication ...
+[Tue Oct 13 15:52:12.012445 2015] [mpm_prefork:notice] [pid 2065] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Tue Oct 13 15:52:12.012531 2015] [core:notice] [pid 2065] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 14 09:25:42.800533 2015] [core:warn] [pid 2065] AH00045: child process 2132 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:42.922938 2015] [core:warn] [pid 2065] AH00045: child process 2133 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:42.922950 2015] [core:warn] [pid 2065] AH00045: child process 2134 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:42.922957 2015] [core:warn] [pid 2065] AH00045: child process 2135 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:42.922965 2015] [core:warn] [pid 2065] AH00045: child process 2136 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:42.922972 2015] [core:warn] [pid 2065] AH00045: child process 4051 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:42.922979 2015] [core:warn] [pid 2065] AH00045: child process 4192 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:42.922987 2015] [core:warn] [pid 2065] AH00045: child process 8840 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:42.922994 2015] [core:warn] [pid 2065] AH00045: child process 8843 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:42.923001 2015] [core:warn] [pid 2065] AH00045: child process 8844 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:44.925079 2015] [core:warn] [pid 2065] AH00045: child process 2132 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:44.925137 2015] [core:warn] [pid 2065] AH00045: child process 2133 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:44.925145 2015] [core:warn] [pid 2065] AH00045: child process 2134 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:44.925151 2015] [core:warn] [pid 2065] AH00045: child process 2135 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:44.925158 2015] [core:warn] [pid 2065] AH00045: child process 2136 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:44.925164 2015] [core:warn] [pid 2065] AH00045: child process 4051 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:44.925170 2015] [core:warn] [pid 2065] AH00045: child process 4192 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:44.925177 2015] [core:warn] [pid 2065] AH00045: child process 8840 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:44.925183 2015] [core:warn] [pid 2065] AH00045: child process 8843 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:44.925189 2015] [core:warn] [pid 2065] AH00045: child process 8844 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:46.927472 2015] [core:warn] [pid 2065] AH00045: child process 2132 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:46.927528 2015] [core:warn] [pid 2065] AH00045: child process 2133 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:46.927535 2015] [core:warn] [pid 2065] AH00045: child process 2134 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:46.927542 2015] [core:warn] [pid 2065] AH00045: child process 2135 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:46.927548 2015] [core:warn] [pid 2065] AH00045: child process 2136 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:46.927554 2015] [core:warn] [pid 2065] AH00045: child process 4051 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:46.927560 2015] [core:warn] [pid 2065] AH00045: child process 4192 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:46.927567 2015] [core:warn] [pid 2065] AH00045: child process 8840 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:46.927573 2015] [core:warn] [pid 2065] AH00045: child process 8843 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:46.927579 2015] [core:warn] [pid 2065] AH00045: child process 8844 still did not exit, sending a SIGTERM
+[Wed Oct 14 09:25:48.928929 2015] [core:error] [pid 2065] AH00046: child process 2132 still did not exit, sending a SIGKILL
+[Wed Oct 14 09:25:48.928984 2015] [core:error] [pid 2065] AH00046: child process 2133 still did not exit, sending a SIGKILL
+[Wed Oct 14 09:25:48.928993 2015] [core:error] [pid 2065] AH00046: child process 2134 still did not exit, sending a SIGKILL
+[Wed Oct 14 09:25:48.929002 2015] [core:error] [pid 2065] AH00046: child process 2135 still did not exit, sending a SIGKILL
+[Wed Oct 14 09:25:48.929011 2015] [core:error] [pid 2065] AH00046: child process 2136 still did not exit, sending a SIGKILL
+[Wed Oct 14 09:25:48.929020 2015] [core:error] [pid 2065] AH00046: child process 4051 still did not exit, sending a SIGKILL
+[Wed Oct 14 09:25:48.929029 2015] [core:error] [pid 2065] AH00046: child process 4192 still did not exit, sending a SIGKILL
+[Wed Oct 14 09:25:48.929038 2015] [core:error] [pid 2065] AH00046: child process 8840 still did not exit, sending a SIGKILL
+[Wed Oct 14 09:25:48.929047 2015] [core:error] [pid 2065] AH00046: child process 8843 still did not exit, sending a SIGKILL
+[Wed Oct 14 09:25:48.929055 2015] [core:error] [pid 2065] AH00046: child process 8844 still did not exit, sending a SIGKILL
+[Wed Oct 14 09:25:50.131887 2015] [mpm_prefork:notice] [pid 2065] AH00169: caught SIGTERM, shutting down
+[Wed Oct 14 09:28:00.052439 2015] [auth_digest:notice] [pid 2114] AH01757: generating secret for digest authentication ...
+[Wed Oct 14 09:28:02.011527 2015] [mpm_prefork:notice] [pid 2114] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Wed Oct 14 09:28:02.011618 2015] [core:notice] [pid 2114] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 14 12:32:03.167043 2015] [mpm_prefork:notice] [pid 2114] AH00169: caught SIGTERM, shutting down
+[Wed Oct 14 12:33:52.052918 2015] [auth_digest:notice] [pid 1979] AH01757: generating secret for digest authentication ...
+[Wed Oct 14 12:33:57.042398 2015] [mpm_prefork:notice] [pid 1979] AH00163: Apache/2.4.10 (Ubuntu) OpenSSL/1.0.1f configured -- resuming normal operations
+[Wed Oct 14 12:33:57.042482 2015] [core:notice] [pid 1979] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 14 14:32:44.638199 2015] [mpm_prefork:notice] [pid 1979] AH00169: caught SIGTERM, shutting down
