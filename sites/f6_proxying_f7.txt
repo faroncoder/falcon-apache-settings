@@ -1,5 +1,5 @@
-<VirtualHost _default_:80>
-
+<VirtualHost *:80>
+# <VirtualHost _default_:80>
 	ServerName f6
 	ServerAlias f6.faron.ca
 	ServerAdmin faronledger@gmail.com
@@ -32,6 +32,7 @@
 
 </VirtualHost>
 <IfModule mod_ssl.c>
+	# <VirtualHost _default_:443>
 	<VirtualHost *:443>
 	ServerName f6
 	ServerAlias f6.faron.ca
