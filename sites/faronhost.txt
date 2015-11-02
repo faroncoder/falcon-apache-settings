@@ -1,8 +1,8 @@
 <VirtualHost *:80>
 	ServerAdmin faron@f10.faron.ca
 	DocumentRoot /srv/www/faronhost/htdocs
-	ServerName faronhost.ca
-	ServerAlias www.faronhost.ca
+	ServerName www.faronhost.ca
+	ServerAlias faronhost.ca
 
 	#ScriptAlias "/cgi-bin/" "/srv/www/faronhost/cgi-bin/"
 
@@ -42,16 +42,21 @@
 <IfModule mod_ssl.c>
 	<VirtualHost *:443>
 		ServerAdmin faronledger@gmail.com
-		ServerName faronhost.ca
-		ServerAlias www.faronhost.ca
+		ServerName www.faronhost.ca
+	ServerAlias faronhost.ca
+
 		DocumentRoot /srv/www/faronhost/htdocs
 		LogLevel info ssl:error
 		ErrorLog /srv/www/faronhost/logs/https-error.log
-		CustomLog /srv/www/faronhost/logs/https-access.log combined
+		CustomLog /srv/www/faronhost/logs/ssl_request_log "%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"
+		#CustomLog /srv/www/faronhost/logs/https-access.log combined
 		Include conf-available/serve-cgi-bin.conf
+
 		SSLEngine on
-		SSLCertificateFile	/etc/ssl/certs/A_faronhost_ca.pem
-		SSLCertificateKeyFile /etc/ssl/private/A_faronhost_ca.pem
+		SSLCertificateFile	/usr/local/share/ca-certificates/faronhost.crt
+		#SSLCertificateFile	/srv/www/faronhost/faronhost.key
+		#SSLCertificateFile	/etc/ssl/certs/A_faronhost_ca.pem
+		SSLCertificateKeyFile /usr/local/share/ca-certificates/faronhost.key
 
 		#   Server Certificate Chain:
 		#   Point SSLCertificateChainFile at a file containing the
@@ -69,7 +74,7 @@
 		#   Note: Inside SSLCACertificatePath you need hash symlinks
 		#		 to point to the certificate files. Use the provided
 		#		 Makefile to update the hash symlinks after changes.
-		#SSLCACertificatePath /etc/ssl/certs/
+		SSLCACertificatePath /etc/ssl/certs/
 		#SSLCACertificateFile /etc/apache2/ssl.crt/ca-bundle.crt
 
 		#   Certificate Revocation Lists (CRL):
@@ -114,6 +119,12 @@
 		#	 This enables optimized SSL connection renegotiation handling when SSL
 		#	 directives are used in per-directory context.
 		#SSLOptions +FakeBasicAuth +ExportCertData +StrictRequire
+
+	SetEnvIf User-Agent ".*MSIE.*" nokeepalive ssl-unclean-shutdown
+
+
+
+
 		<FilesMatch "\.(cgi|shtml|phtml|php)$">
 				SSLOptions +StdEnvVars
 		</FilesMatch>
